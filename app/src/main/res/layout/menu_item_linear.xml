@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_motor"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/border"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/iv_image_motor"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="16dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/image_motor"
+        tools:src="@tools:sample/avatars"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_kode_motor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="@string/kode_motor" />
+
+        <TextView
+            android:id="@+id/tv_nama_motor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="@string/nama_motor" />
+
+        <TextView
+            android:id="@+id/tv_satuan_motor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:textSize="16sp"
+            android:maxLines="5"
+            tools:text="@string/satuan_motor" />
+
+        <TextView
+            android:id="@+id/tv_harga_motor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:textSize="16sp"
+            android:maxLines="2"
+            tools:text="@string/harga_motor" />
+
+        <TextView
+            android:id="@+id/tv_jumlah_motor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:textSize="16sp"
+            android:maxLines="2"
+            tools:text="@string/jumlah_motor" />
+
+
+    </LinearLayout>
+</LinearLayout>
