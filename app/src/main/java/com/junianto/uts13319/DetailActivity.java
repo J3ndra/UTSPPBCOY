@@ -59,7 +59,7 @@ public class DetailActivity extends AppCompatActivity {
         Intent intent = new Intent(this, CetakActivity.class);
         intent.putExtra("namaMotor", getIntent().getStringExtra("namaMotor"));
         intent.putExtra("hargaMotor", getIntent().getIntExtra("hargaMotor", 0));
-        intent.putExtra("jumlahMotor", getIntent().getIntExtra("jumlahMotor", 0));
+        intent.putExtra("jumlahMotor", tampungTotal);
         intent.putExtra("totalHarga", totalHarga * tampungTotal);
 
         startActivity(intent);
